@@ -27,14 +27,22 @@ Interface de console: Interação simples e direta via terminal.
 
 🗂 Estrutura do Projeto
 event-manager/
+
 ├── data/
+
 ├── src/
+
 │   └── com/eventocity/
-│       ├── models/       -> Classes de modelo (Event, User, etc.)
-│       ├── services/     -> Lógica de negócio
-│       ├── utils/        -> Classes utilitárias      
-│       └── Main.java     -> Classe principal para executar o sistema
-└── events.data           -> Arquivo de dados persistentes
+
+│       ├── models/  -> Classes de modelo (Event, User, etc.)
+
+│       ├── services/ -> Lógica de negócio
+
+│       ├── utils/ -> Classes utilitárias      
+
+│       └── Main.java -> Classe principal para executar o sistema
+
+└── events.data -> Arquivo de dados persistentes
 
 🚀 Como Executar
 
